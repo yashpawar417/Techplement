@@ -29,6 +29,7 @@ CREATE DATABASE name;
 ##Grant all privilges on the database 'wp' to the newly created user
 
 GRANT ALL PRIVILEGES ON databasename.* TO 'username'@localhost;
+FLUSH PRIVILEGES;
 
 ##Download wordpress
 
